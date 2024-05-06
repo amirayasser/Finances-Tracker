@@ -1,0 +1,69 @@
+.listItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #EEF0E5; */
+}
+
+ul{
+    width: 80%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 1px solid #EEF0E5; */
+
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6eebf;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+}
+
+ li div{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+}
+
+.title{
+    width: 50%;
+    flex-grow: 2;
+}
+
+
+.theDate{
+    font-size: 0.8rem; 
+    width: 80%;
+}
+
+.expense{
+    color: red; 
+}
+
+.income{
+    color: green;
+}
+
+.del{
+    background-color: transparent;
+    /* padding: 5px 10px; */
+    margin-left: 20px;
+    /* border-radius: 5px; */
+    /* color: #EEF0E5; */
+    border: none;
+font-size: 2rem;
+cursor: pointer;
+}
+
+.add{
+    color: #E7B10A;
+}

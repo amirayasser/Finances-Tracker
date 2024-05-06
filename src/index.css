@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+    svg.noMobile {
+        display: none;
+        /* hide SVG on mobile screens */
+    }
+}
+
